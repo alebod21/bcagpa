@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "BCA GPA",
+	"description": "BCA GPA",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			"js": ["gpa.js"]
+		}
+	],
+
+	"permissions": [
+		"activeTab",
+		"https://ajax.googleapis.com/"
+	]
+
+}
