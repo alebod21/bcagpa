@@ -4,3 +4,4 @@ Designed for students of the Bergen County Academies in Hackensack, New Jersey, 
 
 Originally developed by Jack Neus. Currently maintained by Su Min Kim.
 
+Chrome Store Link: https://chrome.google.com/webstore/detail/bca-gpa/kghamhhmjmebnijfiadominicmmpiole?hl=en-US
