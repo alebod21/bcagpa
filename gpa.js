@@ -89,16 +89,16 @@ function classData(){
 			var elta = elt.querySelector('a');
 			if(elta == null) continue;
 			var href = elta.href;
-			if(href.substring(href.length - 2) == "T1"){
+			if(href.substring(href.length - 14, href.length - 12) == "T1"){
 				grades[0] = extractLetterGrade(elta.textContent);
 			}
-			if(href.substring(href.length - 2) == "T2"){
+			if(href.substring(href.length - 14, href.length - 12) == "T2"){
 				grades[1] = extractLetterGrade(elta.textContent);
 			}
-			if(href.substring(href.length - 2) == "T3"){
+			if(href.substring(href.length - 14, href.length - 12) == "T3"){
 				grades[2] = extractLetterGrade(elta.textContent);
 			}
-			if(href.substring(href.length - 2) == "Y1"){
+			if(href.substring(href.length - 14, href.length - 12) == "Y1"){
 				grades[3] = extractLetterGrade(elta.textContent);
 			}
 		}
